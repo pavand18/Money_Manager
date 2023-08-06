@@ -16,43 +16,6 @@ const Settings = () => {
               <i className="bi bi-google"></i>
             </button>
           </div>
-
-          <div className="settings_item">
-            <img
-              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
-              alt=""
-              className="w-12 h-12 rounded"
-            />
-
-            <h2>Tonmoy Deb</h2>
-
-            <button className="btn btn-danger ml-auto">
-              <i className="bi bi-box-arrow-right"></i>
-            </button>
-          </div>
-
-          <div className="flex flex-col gap-1.5">
-            <div className="settings_item ">
-              <h2>Automatic sync data in</h2>
-
-              <select className="ml-auto text-sm py-1 pl-2 select">
-                <option value="03 Days">03 Days</option>
-                <option value="07 Days">07 Days</option>
-                <option value="15 Days">15 Days</option>
-              </select>
-            </div>
-            <p className="text-xs pl-2 text-gray-600 dark:text-gray-300 ">
-              last synced 3 days ago
-            </p>
-          </div>
-
-          <div className="settings_item">
-            <h2>Sync Data Now</h2>
-
-            <button className="btn btn-success ml-auto">
-              <i className="bi bi-arrow-repeat"></i>
-            </button>
-          </div>
         </div>
       </div>
     </>
