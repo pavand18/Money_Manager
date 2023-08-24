@@ -9,14 +9,15 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar_container">
+        
         {/* sidebar brand */}
         <button
           className="text-xl font-medium bg-blue-600 hover:bg-blue-700 text-white sidebar_item"
           onClick={toggleSidebar}
         >
           <i className="icon bi bi-wallet px-2 py-0.5 bg-slate-900 rounded inline-block"></i>
-          <span className="title">Track Taka</span>
-        </button>
+          <span className="title">Budget Trackrr</span>
+        </button> 
 
         {/* sidebar links */}
         <ul className="sidebar_links mt-10">
@@ -51,6 +52,7 @@ const Sidebar = () => {
 
           <span className="title">light theme</span>
         </button>
+
       </div>
     </div>
   );

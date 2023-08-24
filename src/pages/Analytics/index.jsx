@@ -7,6 +7,7 @@ import {
   Tooltip,
   XAxis,
 } from "recharts";
+
 import MonthFilter from "../../common/components/MonthFilter";
 import StatCard from "../../common/components/StatCard";
 import { useTransectionContext } from "../../common/contexts/transectionContext";
@@ -76,6 +77,7 @@ const Analytics = () => {
       </div>
 
       <div className="grid lg:grid-cols-3 gap-5 mt-10">
+       
         {/* <!-- analytics graph chart start --> */}
         <div className="lg:col-span-3 bg-white border border-gray-200 p-4 min-h-[400px] dark:bg-slate-800 dark:border-slate-700 ">
           <ResponsiveContainer height={400}>

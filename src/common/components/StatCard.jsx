@@ -10,14 +10,17 @@ const StatCard = ({ type, title, amount, icon }) => {
           className={`bi bi-${icon} px-3 py-2.5 text-3xl text-white rounded icon`}
         ></i>
       </div>
+
       <div className="flex flex-col">
         <h2 className="text-base lowercase text-slate-600 dark:text-slate-300">
           {title}
         </h2>
         <h3 className="text-3xl font-bold">{amount}</h3>
       </div>
+
     </div>
   );
 };
 
 export default StatCard;
+

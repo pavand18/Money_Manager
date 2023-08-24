@@ -40,6 +40,7 @@ export const GlobalContextProvider = ({ children }) => {
     localStorage.setItem(localStorageThemeKey, state.theme);
   }, [state.theme]);
 
+
   // handle sidebar
   useEffect(() => {
     document.body.dataset.sidebar = state.sidebar;
@@ -58,6 +59,7 @@ export const GlobalContextProvider = ({ children }) => {
     [state]
   );
 
+  
   return (
     <globalContext.Provider value={value}>{children}</globalContext.Provider>
   );
